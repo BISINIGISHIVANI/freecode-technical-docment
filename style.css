@@ -1,6 +1,34 @@
 #main-doc{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
 }
-.nav-link{
-    display: table;
+
+.nav-link a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 20px;
+    overflow-x: hidden;
+                overflow-y: auto;
+                text-align:justify;
+    overflow:auto;
+}
+.main-section>code{
+    display: block;
+    background-color:rgb(218, 211, 211);
+    padding: 8px;
+    border-radius: 8px;
+}
+#navbar header{
+    color: black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-weight: lighter;
+    /*  */
+}
+@media screen and (min-width: 480px) {
+    #navbar{width: 1200px;}
+    .main-section{font-size: medium;margin-left: 25px;}
 }

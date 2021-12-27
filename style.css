@@ -1,33 +1,6 @@
-#container{
-    display:flex;
-    flex-direction:row;
-  }
-  #left_side{
-    background-color:yellow;
-  /*   display:flex; */
-    width:30%;
-   
-  /*   flex-direction:column;
-    justify-content:center; */
-  }
-  
-  #right_side{
-    background-color:pink;
-  /*   display:flex; */
-    width:70%;
-  /*   flex-direction:column; */
-    padding-left:12px;
-    padding-bottom:0px;
-  }
-  h3{
-    border-bottom:3px solid black;
-  /*   display:flex;
-    justify-content:space-between; */
-    padding-left:20px;
-    padding-bottom:15px;
-    cursor:pointer;
-  }
-  #border-one{
-    border-top:3px solid black;
-    padding-top:5px;
-  }
+#main-doc{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-link{
+    display: table;
+}
